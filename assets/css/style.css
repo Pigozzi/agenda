@@ -1,0 +1,179 @@
+body {
+    overflow-x: hidden;
+    background: #bababa;
+    /* background: linear-gradient(#058885, #345995); */
+}
+
+.padding-row{
+	padding:30px 15px;
+}
+
+.full-height {
+	min-height: 100vh;
+    background: #cecece;
+}
+
+.full-width {
+	width: 100vw;
+
+}
+
+.md-height {
+	height: 90vh;
+
+}
+
+.btn {
+	cursor: pointer;
+
+}
+
+#list-settings-list {
+	cursor: pointer;
+}
+
+.shadow {
+	box-shadow: 1px 3px 7px rgba(0,0,0, 0.7);
+}
+
+.margin-top {
+	margin-top: 65px;
+}
+
+.margin-bottom {
+	margin-bottom: 15em;
+}
+
+.margin-right{
+	margin-right: 10px;
+}
+
+.margin-left{
+	margin-left: 50px;
+}
+
+.margin-senha {
+	margin-right: 8px;
+}
+
+.margin-setor {
+	margin-right: 5px;
+}
+
+.margin-sair {
+	margin-right: 2px;
+}
+
+.fundo {
+	background-color: rgba(0,0,0,.03);
+}
+
+@media only screen and (min-width: 992px) {
+	  .navbar-collapse > .navbar-nav{
+		position: absolute;
+		right: 20px;
+	}
+}
+
+.navbar{
+	min-height: 50px;
+	background-color: #31393C !important;
+	color: #000;
+}
+
+/* Tela de login */
+
+.logo{
+	max-width: 26em;
+    width: auto;
+    height: auto;
+}
+
+.transparente {
+	background-color: rgba(0,0,0,0);
+	border: transparent;
+	color: #fff;
+}
+
+.sem-borda {
+	background-color: #fff;
+	border-color: #fff;
+}
+
+/* Fim tela de login */
+
+
+/* Espaço em responsável pelo setor.*/
+
+.espaco{
+	margin-right: 20px;
+}
+
+/* Fim espaço. */
+
+/* Calendário */
+
+.dia-atual {
+	background-color: #dddddd !important;
+	color: #000 !important;
+}
+
+.fundo-dia {
+	background-color: #fff;
+	color: #000;
+}
+
+.fundo-dia:hover{
+	background-color: #D9EEF9;
+	color: #000;
+	cursor: pointer;
+	transform: scale(1.1);
+	z-index: 1;
+	transition: all .2s;
+}
+
+.test{
+	z-index: 2;
+}
+
+.col-calendario {
+	width: 14.28571428571429%;
+	border: 1px solid grey;
+    border-radius: 5px;
+	text-align: right;
+	position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.corpo-calendario {
+	min-height: 15vh !important;
+}
+
+.cabecalho-calendario {
+	height: auto !important;
+	text-align: center;
+}
+
+.calendario-evento {
+	white-space: nowrap;
+	overflow: hidden;
+	font-size: 0.7em;
+	text-align: center;
+	background-color: red;
+	cursor: pointer;
+	margin-bottom: 1%;
+}
+
+/* Fim CSS Calendário */
+
+/* Botão flutuante "Novo Evento" */
+
+.flutuante {
+	position: fixed;
+	z-index: 3 !important;
+	right: 20px;
+	bottom: 20px;
+}
+
+/* Fim botão flutuante */
